@@ -1,0 +1,19 @@
+# folders
+code
+build_asan
+bin_asan
+
+# files
+.DS_Store
+crash-*
+leak-*
+slow-unit-*
+AFG_file*
+harness
+
+liblouis/3.2.0/liblouis-3.2.0.tar.gz
+libming/0.4.8/ming-0_4_8.tar.gz
+libtiff/4.0.9/libtiff-v4.0.9.tar.gz
+tcpreplay/09f0774/tcpreplay-4.4.1.tar.gz
+tcpreplay/4.2.6/v4.2.6.tar.gz
+tcpreplay/0ca82e3/tcpreplay-4.3.4.tar.gz

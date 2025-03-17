@@ -1,0 +1,18 @@
+--- code/configure.ac	2017-05-16 23:13:43.000000000 +0800
++++ build_asan/configure.ac	2024-05-30 20:38:45.261788692 +0800
+@@ -326,13 +326,13 @@
+ dnl Checks for library functions.
+ AC_FUNC_FORK
+ AC_FUNC_LSTAT_FOLLOWS_SLASHED_SYMLINK
+-AC_FUNC_MALLOC
++
+ AC_FUNC_MEMCMP
+ AC_TYPE_SIGNAL
+ AC_FUNC_VPRINTF
+ AC_FUNC_MKTIME
+ AC_FUNC_MMAP
+-AC_FUNC_REALLOC
++
+ AC_CHECK_MEMBERS([struct timeval.tv_sec])
+ AC_CHECK_FUNCS([alarm atexit bzero dup2 gethostbyname getpagesize gettimeofday ctime inet_ntoa memmove memset munmap pow putenv realpath regcomp strdup select socket strcasecmp strchr strcspn strdup strerror strtol strncpy strtoull poll ntohll mmap snprintf vsnprintf strsignal strpbrk strrchr strspn strstr strtoul])
+ 

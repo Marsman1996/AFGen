@@ -1,0 +1,11 @@
+--- code/src/tcpedit/tcpedit.c	2017-05-16 23:13:43.000000000 +0800
++++ build_asan/src/tcpedit/tcpedit.c	2024-05-30 20:11:52.416415145 +0800
+@@ -42,7 +42,7 @@
+ #include "lib/sll.h"
+ #include "dlt.h"
+ 
+-tOptDesc *const tcpedit_tcpedit_optDesc_p;
++extern tOptDesc *const tcpedit_tcpedit_optDesc_p;
+ 
+ /**
+  * \brief Checks to see if you should make an edit

@@ -1,0 +1,53 @@
+--- code/src/config.h.in	2017-05-16 23:13:43.000000000 +0800
++++ build_asan/src/config.h.in	2024-05-30 20:04:34.000000000 +0800
+@@ -232,10 +232,6 @@
+ /* Building Linux */
+ #undef HAVE_LINUX
+ 
+-/* Define to 1 if your system has a GNU libc compatible `malloc' function, and
+-   to 0 otherwise. */
+-#undef HAVE_MALLOC
+-
+ /* Define to 1 if you have the `memmove' function. */
+ #undef HAVE_MEMMOVE
+ 
+@@ -344,10 +340,6 @@
+ /* Define to 1 if you have the `putenv' function. */
+ #undef HAVE_PUTENV
+ 
+-/* Define to 1 if your system has a GNU libc compatible `realloc' function,
+-   and to 0 otherwise. */
+-#undef HAVE_REALLOC
+-
+ /* Define this if we have a functional realpath(3C) */
+ #undef HAVE_REALPATH
+ 
+@@ -600,8 +592,7 @@
+    slash. */
+ #undef LSTAT_FOLLOWS_SLASHED_SYMLINK
+ 
+-/* Define to the sub-directory in which libtool stores uninstalled libraries.
+-   */
++/* Define to the sub-directory where libtool stores uninstalled libraries. */
+ #undef LT_OBJDIR
+ 
+ /* Define to 1 if `major', `minor', and `makedev' are declared in <mkdev.h>.
+@@ -747,18 +738,12 @@
+    a type exists and the standard includes do not define it. */
+ #undef int8_t
+ 
+-/* Define to rpl_malloc if the replacement function should be used. */
+-#undef malloc
+-
+ /* Define to `long int' if <sys/types.h> does not define. */
+ #undef off_t
+ 
+ /* Define to `int' if <sys/types.h> does not define. */
+ #undef pid_t
+ 
+-/* Define to rpl_realloc if the replacement function should be used. */
+-#undef realloc
+-
+ /* Define to `unsigned int' if <sys/types.h> does not define. */
+ #undef size_t
+ 
